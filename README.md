@@ -1,1 +1,1 @@
-my bolg
+Hi, this is my blog
