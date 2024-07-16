@@ -9,7 +9,6 @@ export const Posts = async () => {
   const {
     search: { nodes },
   } = discussions
-  console.log('discussions', discussions)
   const recentDiscussions = nodes.slice(0, 5)
   return (
     <>

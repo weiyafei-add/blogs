@@ -16,24 +16,7 @@ const client = new Client({
 })
 
 export const queryProfileREADME = cache(async () => {
-  const [masterResult, mainResult] = await Promise.allSettled([
-    graphql<RepositoryFile>(
-      `
-        query queryProfileREADME($owner: String!, $file: String!) {
-          repository(owner: $owner, name: $owner) {
-            object(expression: $file) {
-              ... on Blob {
-                text
-              }
-            }
-          }
-        }
-      `,
-      {
-        file: 'master:README.md',
-        owner: repoOwner,
-      },
-    ),
+  const [mainResult] = await Promise.allSettled([
     graphql<RepositoryFile>(
       `
         query queryProfileREADME($owner: String!, $file: String!) {
