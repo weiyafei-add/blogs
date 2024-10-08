@@ -22,7 +22,7 @@ export default function Layout() {
         <Skills />
         <Pinned />
         <Font />
-        <Resume />
+        {/* <Resume /> */}
         <ThemeToggle />
         <Tags />
         <Posts />

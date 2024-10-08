@@ -57,19 +57,19 @@ export default function Page() {
             <TypedText>whoami</TypedText>
             <TypedContent>
               <p>
-                Hi, I&apos;m <strong>ZHANG YU</strong>, in Chinese my name is{' '}
-                <strong>张宇</strong>.
+                Hi, I&apos;m <strong>WEI YAFEI</strong>, in Chinese my name is{' '}
+                <strong>卫亚飞</strong>.
               </p>
               <p>
                 I am a senior front-end engineer who have been involving in
                 front-end development since <strong>2018</strong>, focusing on
                 building aesthetically pleasing and highly interactive user
-                interfaces by <code>React</code>.
+                interfaces by <code>React or Vue</code>.
               </p>
-              <p>
+              {/* <p>
                 I have amassed substantial practical experience in the{' '}
                 <code>React</code> technology stack.
-              </p>
+              </p> */}
             </TypedContent>
             <TypedText afterDelay={1000}>ls</TypedText>
             <TypedContent>
@@ -215,7 +215,9 @@ export default function Page() {
                 <div className='grid flex-1 grid-cols-2 justify-items-start gap-2'>
                   <a href='https://github.com/zhangyu1818'>Github</a>
                   <a href='https://twitter.com/zhangyu1818'>Twitter</a>
-                  <a href='https://juejin.cn/user/4089838986339927'>掘金</a>
+                  <a href='https://juejin.cn/user/3403743731133912/posts'>
+                    掘金
+                  </a>
                   <a href='https://dev.to/zhangyu1818'>Dev.to</a>
                   <a href='https://medium.com/@zhangyu1818'>Medium</a>
                 </div>
